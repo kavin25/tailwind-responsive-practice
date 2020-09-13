@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SMHW</title>
+</head>
+<body class="text-text">
+    <div class="content-wrapper">
+        <nav class="md:flex grid grid-cols-2 md:justify-between items-center">
+            <div class="title m-4 col-span-1">
+                <span>
+                    <h4>SMHW</h4>
+                </span>
+            </div>
+            <div class="px-4 cursor-pointer md:hidden flex justify-self-end" id="burger">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </div>
+            <ul class="nav-links md:flex hidden" id="menu">
+                <li class="nav-item text-gray-900 font-bold m-4">
+                    Home
+                </li>
+                <li class="nav-item m-4">
+                    About
+                </li>
+                <li class="nav-item m-4">
+                    Contact
+                </li>
+            </ul>
+        </nav>
+        <header class="header py-20 px-4 text-white bg-gradient-to-r from-primary to-secondary text-center md:text-left">
+            <h1 class="text-2xl font-bold">Smart Health Monitoring Wristwatch!</h1>
+            <h3 class="mb-8">Monitor your health vitals smartly anywhere you go.</h3>
+            <a href="#" class="uppercase text-text bg-white rounded-full font-semibold p-4">Pre Order</a>
+        </header>
+        <main class="content px-6 py-4">
+            <h2 class="font-bold text-2xl text-center">Features</h2>
+            <div class="md:grid grid-cols-2 my-4">
+                <div>
+                    <h3 class="font-bold text-xl">Exercise Metrics</h3>
+                    <p>Our Smart Health Monitoring Wristwatch is able to capture you vitals while you exercise. You can create different category of exercises and can track your vitals on the go.</p>
+                </div>
+                <div class="hidden md:block">
+                    <img src="img/health.svg" alt="Monitoring">
+                </div>
+            </div>
+            <div class="md:grid grid-cols-2 my-4">
+                <div class="hidden md:block">
+                    <img src="img/report.svg" alt="Monitoring">
+                </div>
+                <div>
+                    <h3 class="font-bold text-xl">Reporting</h3>
+                    <p>Our Smart Health Monitoring Wristwatch can generate a comprehensive report on your vitals depending on your settings either daily, weekly, monthly, quarterly or yearly.</p>
+                </div>
+            </div>
+            <div class="md:grid grid-cols-2 my-4">
+                <div>
+                    <h3 class="font-bold text-xl">Syncing</h3>
+                    <p>Our Smart Health Monitoring Wristwatch allows you to sync data across all your mobile devices whether iOS, Android or Windows OS and also to your laptop whether MacOS, GNU/Linux or Windows OS.</p>
+                </div>
+                <div class="hidden md:block">
+                    <img src="img/sync.svg" alt="Monitoring">
+                </div>
+            </div>
+        </main>
+        <div class="testimonials bg-gray-100 px-10 py-10">
+            <h2 class="text-2xl font-bold text-center">Testimonials</h2>
+            <div class="list md:grid grid-cols-3 gap-10 mt-6 text-center md:text-left">
+                <div class="card mb-5 bg-white rounded p-6 shadow">
+                    <p class="text-gray-800">Monitoring and tracking my health vitals anywhere I go and on any platform I use has never been easier.</p>
+                    <p class="text-gray-500 text-xs md:text-sm">James Doe</p>
+                </div>
+                <div class="card mb-5 bg-white rounded p-6 shadow">
+                    <p class="text-gray-800">Monitoring and tracking my health vitals anywhere I go and on any platform I use has never been easier.</p>
+                    <p class="text-gray-500 text-xs md:text-sm">James Doe</p>
+                </div>
+                <div class="card mb-5 bg-white rounded p-6 shadow">
+                    <p class="text-gray-800">Monitoring and tracking my health vitals anywhere I go and on any platform I use has never been easier.</p>
+                    <p class="text-gray-500 text-xs md:text-sm">James Doe</p>
+                </div>
+            </div>
+        </div>
+        <div class="limited bg-primary text-center text-white py-8">
+            <h1 class="text-4xl font-bold">Limited in Stock</h1>
+            <p class="subtitle text-lg mt-6 mb-12">Get yourself the Smart Health Monitoring Wristwatch!</p>
+            <a href="#" class="uppercase text-text bg-white rounded-full font-semibold p-4">Pre Order</a>
+        </div>
+        <footer class="bg-gray-200 hidden md:grid grid-cols-4 p-10">
+            <div>
+                <h4 class="uppercase font-bold mb-6">Links</h4>
+                <ul>
+                    <li class="my-2">FAQ</li>
+                    <li class="my-2">Help</li>
+                    <li class="my-2">Support</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="uppercase font-bold mb-6">Legal</h4>
+                <ul>
+                    <li class="my-2">Terms</li>
+                    <li class="my-2">Privacy</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="uppercase font-bold mb-6">Social</h4>
+                <ul>
+                    <li class="my-2">Facebook</li>
+                    <li class="my-2">Linkedin</li>
+                    <li class="my-2">Twitter</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="uppercase font-bold mb-6">company</h4>
+                <ul>
+                    <li class="my-2">Official Blog</li>
+                    <li class="my-2">About Us</li>
+                    <li class="my-2">Contact</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
